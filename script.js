@@ -261,7 +261,7 @@ const extraTextModels = [
     tasks: { counting: 92.5, depth: 86.66666666666667, orientation: 85.0, size: 94.28571428571428, relationship: 60.0, perspective: 74.28571428571429, mental_modeling: 62.857142857142854, grounding: 85.71428571428571, multihop: 90.0, prediction: 72.2, feasibility: 85.71428571428571, affordance: 71.80952380952381, navigation: 93.33333333333333, trajectory: 83.33333333333334 },
   },
   {
-    model: "Qwen3.8-Max",
+    model: "Qwen3.8 Max",
     protocol: "Text Answering",
     protocolKey: "text",
     source: "Supplementary API Evaluation",
@@ -761,7 +761,7 @@ const filters = {
 const frontierModelNames = new Set([
   "GPT-5.6 Sol",
   "Claude Fable 5",
-  "Qwen3.8-Max",
+  "Qwen3.8 Max",
   "Claude Opus 4.8",
   "Kimi K3",
 ]);

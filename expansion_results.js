@@ -1,7 +1,7 @@
 window.SPATIALGEN_EXPANSION_RESULTS = {
   "schema_version": "spatialgen.homepage_expansion.v2",
   "manifest_sha256": "dd9733a1173d790bdd5888a9b944d3a9e3edaef5356426a6da237b09ab176dd6",
-  "updated_at": "2026-08-06T23:49:13+10:00",
+  "updated_at": "2026-08-07T01:46:54+10:00",
   "systems": {
     "Nano Banana 2::visual": {
       "status": "complete",
@@ -373,7 +373,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "feasibility": 85.71428571
       }
     },
-    "Qwen3.8-Max::text": {
+    "Qwen3.8 Max::text": {
       "status": "complete",
       "samples": 105,
       "overall": 89.52380952,
@@ -1269,7 +1269,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "trajectory": 83.33333333
       }
     },
-    "Qwen3.8-Max::text": {
+    "Qwen3.8 Max::text": {
       "status": "complete",
       "samples": 365,
       "overall": 79.61904762,
