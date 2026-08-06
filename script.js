@@ -261,6 +261,15 @@ const extraTextModels = [
     tasks: { counting: 92.5, depth: 86.66666666666667, orientation: 85.0, size: 94.28571428571428, relationship: 60.0, perspective: 74.28571428571429, mental_modeling: 62.857142857142854, grounding: 85.71428571428571, multihop: 90.0, prediction: 72.2, feasibility: 85.71428571428571, affordance: 71.80952380952381, navigation: 93.33333333333333, trajectory: 83.33333333333334 },
   },
   {
+    model: "Qwen3.8-Max",
+    protocol: "Text Answering",
+    protocolKey: "text",
+    source: "Supplementary API Evaluation",
+    overall: 81.74149659863947,
+    capabilities: { Perception: 92.20238095238096, Understanding: 72.14285714285714, Reasoning: 78.04761904761905, Interaction: 84.28571428571428 },
+    tasks: { counting: 97.5, depth: 86.66666666666667, orientation: 87.5, size: 97.14285714285714, relationship: 57.14285714285714, perspective: 82.85714285714286, mental_modeling: 54.285714285714285, grounding: 94.28571428571428, multihop: 90.0, prediction: 67.0, feasibility: 77.14285714285715, affordance: 72.85714285714285, navigation: 93.33333333333333, trajectory: 86.66666666666667 },
+  },
+  {
     model: "Kimi K3",
     protocol: "Text Answering",
     protocolKey: "text",
@@ -286,6 +295,15 @@ const extraTextModels = [
     overall: 48.23982683982684,
     capabilities: { Perception: 71.94444444444444, Understanding: 37.14285714285714, Reasoning: 34.78333333333333, Interaction: 44.60317460317461 },
     tasks: { counting: 77.5, depth: 73.33333333333333, orientation: 65.0, relationship: 40.0, perspective: 28.57142857142857, mental_modeling: 42.857142857142854, multihop: 26.666666666666668, prediction: 42.9, affordance: 30.476190476190485, navigation: 26.666666666666668, trajectory: 76.66666666666667 },
+  },
+  {
+    model: "SpatioLM-Understanding",
+    protocol: "Text Answering",
+    protocolKey: "text",
+    source: "Supplementary Local Evaluation",
+    overall: 45.26462585034013,
+    capabilities: { Perception: 49.166666666666664, Understanding: 46.42857142857143, Reasoning: 54.72698412698413, Interaction: 29.047619047619047 },
+    tasks: { counting: 47.5, depth: 56.666666666666664, orientation: 12.5, size: 80.0, relationship: 60.0, perspective: 25.71428571428571, mental_modeling: 80.0, grounding: 20.0, multihop: 36.666666666666664, prediction: 61.80000000000002, feasibility: 65.71428571428571, affordance: 10.476190476190476, navigation: 16.666666666666664, trajectory: 60.0 },
   },
   {
     model: "GPT-5.4",
@@ -743,6 +761,7 @@ const filters = {
 const frontierModelNames = new Set([
   "GPT-5.6 Sol",
   "Claude Fable 5",
+  "Qwen3.8-Max",
   "Claude Opus 4.8",
   "Kimi K3",
 ]);

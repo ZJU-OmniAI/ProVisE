@@ -1,7 +1,7 @@
 window.SPATIALGEN_EXPANSION_RESULTS = {
   "schema_version": "spatialgen.homepage_expansion.v2",
   "manifest_sha256": "dd9733a1173d790bdd5888a9b944d3a9e3edaef5356426a6da237b09ab176dd6",
-  "updated_at": "2026-07-21T01:48:24+10:00",
+  "updated_at": "2026-08-06T23:49:13+10:00",
   "systems": {
     "Nano Banana 2::visual": {
       "status": "complete",
@@ -371,6 +371,26 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "size": 94.28571429,
         "grounding": 85.71428571,
         "feasibility": 85.71428571
+      }
+    },
+    "Qwen3.8-Max::text": {
+      "status": "complete",
+      "samples": 105,
+      "overall": 89.52380952,
+      "tasks": {
+        "size": 97.14285714,
+        "grounding": 94.28571429,
+        "feasibility": 77.14285714
+      }
+    },
+    "SpatioLM-Understanding::text": {
+      "status": "complete",
+      "samples": 105,
+      "overall": 55.23809524,
+      "tasks": {
+        "size": 80.0,
+        "grounding": 20.0,
+        "feasibility": 65.71428571
       }
     },
     "Claude Opus 4.8::text": {
@@ -1247,6 +1267,54 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "affordance": 71.80952381,
         "navigation": 93.33333333,
         "trajectory": 83.33333333
+      }
+    },
+    "Qwen3.8-Max::text": {
+      "status": "complete",
+      "samples": 365,
+      "overall": 79.61904762,
+      "capabilities": {
+        "Perception": 90.55555556,
+        "Understanding": 64.76190476,
+        "Reasoning": 78.5,
+        "Interaction": 84.28571429
+      },
+      "tasks": {
+        "counting": 97.5,
+        "depth": 86.66666667,
+        "orientation": 87.5,
+        "relationship": 57.14285714,
+        "perspective": 82.85714286,
+        "mental_modeling": 54.28571429,
+        "multihop": 90.0,
+        "prediction": 67.0,
+        "affordance": 72.85714286,
+        "navigation": 93.33333333,
+        "trajectory": 86.66666667
+      }
+    },
+    "SpatioLM-Understanding::text": {
+      "status": "complete",
+      "samples": 365,
+      "overall": 42.54458874,
+      "capabilities": {
+        "Perception": 38.88888889,
+        "Understanding": 55.23809524,
+        "Reasoning": 49.23333333,
+        "Interaction": 29.04761905
+      },
+      "tasks": {
+        "counting": 47.5,
+        "depth": 56.66666667,
+        "orientation": 12.5,
+        "relationship": 60.0,
+        "perspective": 25.71428571,
+        "mental_modeling": 80.0,
+        "multihop": 36.66666667,
+        "prediction": 61.8,
+        "affordance": 10.47619048,
+        "navigation": 16.66666667,
+        "trajectory": 60.0
       }
     },
     "Claude Opus 4.8::text": {
