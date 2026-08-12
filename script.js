@@ -2539,7 +2539,9 @@ async function setupPageViewCounter() {
   const labelNode = document.querySelector("#page-view-label");
   if (!counter || !countNode || !labelNode) return;
 
-  const endpoint = "https://provise.goatcounter.com/counter/TOTAL.json";
+  const endDate = new Date();
+  endDate.setUTCDate(endDate.getUTCDate() + 1);
+  const endpoint = `https://provise.goatcounter.com/counter/TOTAL.json?end=${endDate.toISOString().slice(0, 10)}`;
 
   try {
     const response = await fetch(endpoint, {
