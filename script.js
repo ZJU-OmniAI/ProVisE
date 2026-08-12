@@ -2539,19 +2539,10 @@ async function setupPageViewCounter() {
   const labelNode = document.querySelector("#page-view-label");
   if (!counter || !countNode || !labelNode) return;
 
-  const endpoint = "https://api.counterapi.dev/v1/show-dont-tell-spatialgen-bench/homepage";
-  const sessionKey = "show-dont-tell-page-view-counted";
-  const isLocalPreview = ["", "localhost", "127.0.0.1"].includes(window.location.hostname);
-  let shouldIncrement = !isLocalPreview;
+  const endpoint = "https://provise.goatcounter.com/counter/TOTAL.json";
 
   try {
-    if (window.sessionStorage.getItem(sessionKey)) shouldIncrement = false;
-  } catch {
-    shouldIncrement = !isLocalPreview;
-  }
-
-  try {
-    const response = await fetch(`${endpoint}/${shouldIncrement ? "up" : ""}`, {
+    const response = await fetch(endpoint, {
       cache: "no-store",
       headers: { Accept: "application/json" },
       referrerPolicy: "no-referrer",
@@ -2559,16 +2550,8 @@ async function setupPageViewCounter() {
     if (!response.ok) return;
 
     const data = await response.json();
-    const count = Number(data.count);
+    const count = Number(String(data.count).replaceAll(",", ""));
     if (!Number.isFinite(count) || count < 0) return;
-
-    if (shouldIncrement) {
-      try {
-        window.sessionStorage.setItem(sessionKey, "1");
-      } catch {
-        // The counter still works when browser storage is unavailable.
-      }
-    }
 
     countNode.textContent = new Intl.NumberFormat("en-US").format(count);
     labelNode.textContent = count === 1 ? "view" : "views";
