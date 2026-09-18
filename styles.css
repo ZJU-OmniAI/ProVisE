@@ -244,10 +244,31 @@ h3 {
 }
 
 .hero-affiliation {
-  margin: 0 0 18px;
+  margin: 0 0 6px;
   color: #6b777d;
   font-size: 0.92rem;
   font-weight: 650;
+}
+
+.hero-author-notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 14px;
+  margin: 0 auto 18px;
+  color: #89969a;
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.hero-author-notes sup {
+  position: relative;
+  top: -0.12em;
+  margin-right: 0.1em;
+  color: var(--teal);
+  font-size: 0.85em;
+  font-weight: 800;
 }
 
 .hero-quote {
