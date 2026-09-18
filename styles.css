@@ -225,6 +225,17 @@ h3 {
   white-space: nowrap;
 }
 
+.hero-authors sup,
+.hero-affiliation sup {
+  position: relative;
+  top: -0.35em;
+  margin-left: 0.08em;
+  color: var(--teal);
+  font-size: 0.62em;
+  font-weight: 800;
+  line-height: 0;
+}
+
 .hero-authors li:not(:last-child)::after {
   content: "·";
   margin: 0 9px;
