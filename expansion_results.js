@@ -1,7 +1,7 @@
 window.SPATIALGEN_EXPANSION_RESULTS = {
   "schema_version": "spatialgen.homepage_expansion.v2",
   "manifest_sha256": "dd9733a1173d790bdd5888a9b944d3a9e3edaef5356426a6da237b09ab176dd6",
-  "updated_at": "2026-08-07T01:46:54+10:00",
+  "updated_at": "2026-09-20T13:16:27.952158+00:00",
   "systems": {
     "Nano Banana 2::visual": {
       "status": "complete",
@@ -408,11 +408,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "LLaVA-OV-1.5-8B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 39.66796537,
+      "overall": 39.51298701,
       "capabilities": {
         "Perception": 42.77777778,
         "Understanding": 35.23809524,
-        "Reasoning": 32.81666666,
+        "Reasoning": 31.96428572,
         "Interaction": 45.55555556
       },
       "tasks": {
@@ -423,7 +423,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 31.42857143,
         "mental_modeling": 31.42857143,
         "multihop": 33.33333333,
-        "prediction": 32.3,
+        "prediction": 30.5952381,
         "affordance": 26.66666667,
         "navigation": 30.0,
         "trajectory": 80.0
@@ -432,11 +432,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "InternVL3.5-8B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 38.34155844,
+      "overall": 38.15844156,
       "capabilities": {
         "Perception": 37.5,
         "Understanding": 22.85714286,
-        "Reasoning": 66.53333334,
+        "Reasoning": 65.52619048,
         "Interaction": 35.87301587
       },
       "tasks": {
@@ -447,7 +447,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 20.0,
         "mental_modeling": 28.57142857,
         "multihop": 56.66666667,
-        "prediction": 76.4,
+        "prediction": 74.38571429,
         "affordance": 40.95238095,
         "navigation": 26.66666667,
         "trajectory": 40.0
@@ -456,11 +456,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Qwen3-VL-8B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 36.11948052,
+      "overall": 35.96017316,
       "capabilities": {
         "Perception": 53.05555556,
         "Understanding": 23.80952381,
-        "Reasoning": 36.21666667,
+        "Reasoning": 35.34047619,
         "Interaction": 31.42857143
       },
       "tasks": {
@@ -471,7 +471,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 25.71428571,
         "mental_modeling": 22.85714286,
         "multihop": 33.33333333,
-        "prediction": 39.1,
+        "prediction": 37.34761905,
         "affordance": 40.95238095,
         "navigation": 16.66666667,
         "trajectory": 36.66666667
@@ -480,11 +480,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "GLM-4.6V-Flash::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 31.35698682,
+      "overall": 31.26824223,
       "capabilities": {
         "Perception": 43.61111111,
         "Understanding": 38.09523809,
-        "Reasoning": 11.76666666,
+        "Reasoning": 11.27857142,
         "Interaction": 25.42482469
       },
       "tasks": {
@@ -495,7 +495,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 25.71428571,
         "mental_modeling": 40.0,
         "multihop": 3.33333333,
-        "prediction": 20.2,
+        "prediction": 19.22380952,
         "affordance": 36.27447406,
         "navigation": 16.66666667,
         "trajectory": 23.33333333
@@ -504,11 +504,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "SpaceR::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 43.27662338,
+      "overall": 43.1021645,
       "capabilities": {
         "Perception": 54.72222222,
         "Understanding": 33.33333333,
-        "Reasoning": 49.86666666,
+        "Reasoning": 48.90714286,
         "Interaction": 37.38095238
       },
       "tasks": {
@@ -519,7 +519,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 20.0,
         "mental_modeling": 22.85714286,
         "multihop": 43.33333333,
-        "prediction": 56.4,
+        "prediction": 54.48095238,
         "affordance": 18.80952381,
         "navigation": 26.66666667,
         "trajectory": 66.66666667
@@ -528,11 +528,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Cambrian-S-7B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 40.12727273,
+      "overall": 40.01688312,
       "capabilities": {
         "Perception": 63.05555556,
         "Understanding": 26.66666667,
-        "Reasoning": 37.78333334,
+        "Reasoning": 37.17619048,
         "Interaction": 32.22222222
       },
       "tasks": {
@@ -543,7 +543,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 22.85714286,
         "mental_modeling": 28.57142857,
         "multihop": 16.66666667,
-        "prediction": 58.9,
+        "prediction": 57.68571429,
         "affordance": 20.0,
         "navigation": 30.0,
         "trajectory": 46.66666667
@@ -552,11 +552,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "GEM-2B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 38.15324675,
+      "overall": 38.01991342,
       "capabilities": {
         "Perception": 50.83333333,
         "Understanding": 40.0,
-        "Reasoning": 28.11666667,
+        "Reasoning": 27.38333333,
         "Interaction": 30.31746032
       },
       "tasks": {
@@ -567,7 +567,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 22.85714286,
         "mental_modeling": 42.85714286,
         "multihop": 33.33333333,
-        "prediction": 22.9,
+        "prediction": 21.43333333,
         "affordance": 27.61904762,
         "navigation": 16.66666667,
         "trajectory": 46.66666667
@@ -576,11 +576,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "SpatialThinker-3B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 37.56721507,
+      "overall": 37.42089473,
       "capabilities": {
         "Perception": 46.38888889,
         "Understanding": 33.33333333,
-        "Reasoning": 32.48333333,
+        "Reasoning": 31.67857143,
         "Interaction": 36.36867749
       },
       "tasks": {
@@ -591,7 +591,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 20.0,
         "mental_modeling": 42.85714286,
         "multihop": 36.66666667,
-        "prediction": 28.3,
+        "prediction": 26.69047619,
         "affordance": 5.77269913,
         "navigation": 43.33333333,
         "trajectory": 60.0
@@ -600,11 +600,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "SpaceOm::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 35.92337662,
+      "overall": 35.81298701,
       "capabilities": {
         "Perception": 49.44444444,
         "Understanding": 27.61904762,
-        "Reasoning": 32.81666666,
+        "Reasoning": 32.20952381,
         "Interaction": 32.77777778
       },
       "tasks": {
@@ -615,7 +615,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 25.71428571,
         "mental_modeling": 25.71428571,
         "multihop": 33.33333333,
-        "prediction": 32.3,
+        "prediction": 31.08571429,
         "affordance": 5.0,
         "navigation": 40.0,
         "trajectory": 53.33333333
@@ -624,11 +624,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "VLM-3R-7B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 31.6446281,
+      "overall": 31.56237702,
       "capabilities": {
         "Perception": 44.44444444,
         "Understanding": 24.76190476,
-        "Reasoning": 23.41666667,
+        "Reasoning": 22.96428572,
         "Interaction": 31.21284271
       },
       "tasks": {
@@ -639,7 +639,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 25.71428571,
         "mental_modeling": 25.71428571,
         "multihop": 33.33333333,
-        "prediction": 13.5,
+        "prediction": 12.5952381,
         "affordance": 13.63852814,
         "navigation": 33.33333333,
         "trajectory": 46.66666667
@@ -648,11 +648,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "SpatialRGPT-8B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 27.37792208,
+      "overall": 27.31082251,
       "capabilities": {
         "Perception": 28.05555556,
         "Understanding": 31.42857143,
-        "Reasoning": 17.06666666,
+        "Reasoning": 16.69761904,
         "Interaction": 29.52380952
       },
       "tasks": {
@@ -663,7 +663,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 37.14285714,
         "mental_modeling": 31.42857143,
         "multihop": 23.33333333,
-        "prediction": 10.8,
+        "prediction": 10.06190476,
         "affordance": 8.57142857,
         "navigation": 16.66666667,
         "trajectory": 63.33333333
@@ -672,11 +672,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Spatial-MLLM::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 25.92770563,
+      "overall": 25.86060606,
       "capabilities": {
         "Perception": 14.16666667,
         "Understanding": 28.57142857,
-        "Reasoning": 23.73333333,
+        "Reasoning": 23.36428571,
         "Interaction": 36.50793651
       },
       "tasks": {
@@ -687,7 +687,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 25.71428571,
         "mental_modeling": 34.28571429,
         "multihop": 36.66666667,
-        "prediction": 10.8,
+        "prediction": 10.06190476,
         "affordance": 16.19047619,
         "navigation": 33.33333333,
         "trajectory": 60.0
@@ -696,11 +696,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "SpatialBot-3B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 23.41688312,
+      "overall": 23.34978355,
       "capabilities": {
         "Perception": 24.16666667,
         "Understanding": 36.19047619,
-        "Reasoning": 22.06666666,
+        "Reasoning": 21.69761904,
         "Interaction": 10.7936508
       },
       "tasks": {
@@ -711,7 +711,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 31.42857143,
         "mental_modeling": 40.0,
         "multihop": 33.33333333,
-        "prediction": 10.8,
+        "prediction": 10.06190476,
         "affordance": 9.04761905,
         "navigation": 6.66666667,
         "trajectory": 16.66666667
@@ -720,11 +720,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "GPT-5.4::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 59.25108225,
+      "overall": 59.02467532,
       "capabilities": {
         "Perception": 74.72222222,
         "Understanding": 40.0,
-        "Reasoning": 49.25,
+        "Reasoning": 48.0047619,
         "Interaction": 69.6984127
       },
       "tasks": {
@@ -735,7 +735,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 31.42857143,
         "mental_modeling": 45.71428571,
         "multihop": 50.0,
-        "prediction": 48.5,
+        "prediction": 46.00952381,
         "affordance": 42.42857143,
         "navigation": 83.33333333,
         "trajectory": 83.33333333
@@ -744,11 +744,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Cosmos3-Nano::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 55.27683889,
+      "overall": 55.11103803,
       "capabilities": {
         "Perception": 71.94444444,
         "Understanding": 31.42857143,
-        "Reasoning": 54.23333333,
+        "Reasoning": 53.32142857,
         "Interaction": 63.15317118
       },
       "tasks": {
@@ -759,7 +759,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 37.14285714,
         "mental_modeling": 34.28571429,
         "multihop": 46.66666667,
-        "prediction": 61.8,
+        "prediction": 59.97619048,
         "affordance": 76.1261802,
         "navigation": 23.33333333,
         "trajectory": 90.0
@@ -768,11 +768,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "SenseNova-Vision-7B-MoT::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 42.13722944,
+      "overall": 42.00822511,
       "capabilities": {
         "Perception": 47.77777778,
         "Understanding": 33.33333334,
-        "Reasoning": 39.85,
+        "Reasoning": 39.14047619,
         "Interaction": 46.82539683
       },
       "tasks": {
@@ -783,7 +783,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 34.28571429,
         "mental_modeling": 22.85714286,
         "multihop": 30.0,
-        "prediction": 49.7,
+        "prediction": 48.28095238,
         "affordance": 63.80952381,
         "navigation": 26.66666667,
         "trajectory": 50.0
@@ -792,11 +792,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "BAGEL-7B-MoT::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 48.23982684,
+      "overall": 48.15411256,
       "capabilities": {
         "Perception": 71.94444444,
         "Understanding": 37.14285714,
-        "Reasoning": 34.78333333,
+        "Reasoning": 34.31190477,
         "Interaction": 44.6031746
       },
       "tasks": {
@@ -807,7 +807,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 28.57142857,
         "mental_modeling": 42.85714286,
         "multihop": 26.66666667,
-        "prediction": 42.9,
+        "prediction": 41.95714286,
         "affordance": 30.47619048,
         "navigation": 26.66666667,
         "trajectory": 76.66666667
@@ -816,11 +816,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "RynnBrain-8B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 44.83766234,
+      "overall": 44.72727273,
       "capabilities": {
         "Perception": 60.83333333,
         "Understanding": 33.33333333,
-        "Reasoning": 39.16666667,
+        "Reasoning": 38.55952381,
         "Interaction": 44.12698413
       },
       "tasks": {
@@ -831,7 +831,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 22.85714286,
         "mental_modeling": 40.0,
         "multihop": 43.33333333,
-        "prediction": 35.0,
+        "prediction": 33.78571429,
         "affordance": 85.71428571,
         "navigation": 26.66666667,
         "trajectory": 20.0
@@ -840,11 +840,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "RoboBrain2.5-8B-NV::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 39.33232323,
+      "overall": 39.17647908,
       "capabilities": {
         "Perception": 48.33333333,
         "Understanding": 19.04761905,
-        "Reasoning": 40.21666667,
+        "Reasoning": 39.35952381,
         "Interaction": 50.02645503
       },
       "tasks": {
@@ -855,7 +855,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 20.0,
         "mental_modeling": 11.42857143,
         "multihop": 33.33333333,
-        "prediction": 47.1,
+        "prediction": 45.38571429,
         "affordance": 80.07936508,
         "navigation": 13.33333333,
         "trajectory": 56.66666667
@@ -864,11 +864,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Janus-Pro-7B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 26.68701299,
+      "overall": 26.5982684,
       "capabilities": {
         "Perception": 27.5,
         "Understanding": 32.38095238,
-        "Reasoning": 20.76666666,
+        "Reasoning": 20.27857142,
         "Interaction": 24.12698413
       },
       "tasks": {
@@ -879,7 +879,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 17.14285714,
         "mental_modeling": 42.85714286,
         "multihop": 13.33333333,
-        "prediction": 28.2,
+        "prediction": 27.22380952,
         "affordance": 5.71428571,
         "navigation": 16.66666667,
         "trajectory": 50.0
@@ -888,11 +888,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Janus-1.3B::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 26.51385282,
+      "overall": 26.41645022,
       "capabilities": {
         "Perception": 36.38888889,
         "Understanding": 38.0952381,
-        "Reasoning": 17.43333334,
+        "Reasoning": 16.89761905,
         "Interaction": 11.11111111
       },
       "tasks": {
@@ -903,7 +903,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 22.85714286,
         "mental_modeling": 37.14285714,
         "multihop": 6.66666667,
-        "prediction": 28.2,
+        "prediction": 27.12857143,
         "affordance": 0.0,
         "navigation": 16.66666667,
         "trajectory": 16.66666667
@@ -960,11 +960,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "GPT-5 Image Mini::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 39.21616275,
+      "overall": 39.24646578,
       "capabilities": {
         "Perception": 67.77777778,
         "Understanding": 33.33333333,
-        "Reasoning": 20.32857143,
+        "Reasoning": 20.49523809,
         "Interaction": 29.12910469
       },
       "tasks": {
@@ -975,7 +975,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 28.57142857,
         "mental_modeling": 28.57142857,
         "multihop": 10.0,
-        "prediction": 30.65714286,
+        "prediction": 30.99047619,
         "affordance": 14.05398072,
         "navigation": 36.66666667,
         "trajectory": 36.66666667
@@ -1080,11 +1080,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "FLUX.2 [klein] 4B::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 26.83684448,
+      "overall": 26.851996,
       "capabilities": {
         "Perception": 33.05555556,
         "Understanding": 28.57142857,
-        "Reasoning": 12.6,
+        "Reasoning": 12.68333334,
         "Interaction": 28.37477896
       },
       "tasks": {
@@ -1095,7 +1095,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 14.28571429,
         "mental_modeling": 31.42857143,
         "multihop": 6.66666667,
-        "prediction": 18.53333333,
+        "prediction": 18.7,
         "affordance": 11.79100355,
         "navigation": 36.66666667,
         "trajectory": 36.66666667
@@ -1128,11 +1128,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Qwen-Image-Edit-2511::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 23.78677941,
+      "overall": 23.76946339,
       "capabilities": {
         "Perception": 22.77777778,
         "Understanding": 26.66666667,
-        "Reasoning": 25.95952381,
+        "Reasoning": 25.86428572,
         "Interaction": 20.46739751
       },
       "tasks": {
@@ -1143,7 +1143,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 14.28571429,
         "mental_modeling": 34.28571429,
         "multihop": 23.33333333,
-        "prediction": 28.58571429,
+        "prediction": 28.3952381,
         "affordance": 4.73552586,
         "navigation": 33.33333333,
         "trajectory": 23.33333333
@@ -1200,11 +1200,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "GPT-5.6 Sol::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 79.17056277,
+      "overall": 79.16406927,
       "capabilities": {
         "Perception": 82.22222222,
         "Understanding": 64.76190476,
-        "Reasoning": 88.03333334,
+        "Reasoning": 87.99761905,
         "Interaction": 84.61904762
       },
       "tasks": {
@@ -1215,7 +1215,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 74.28571429,
         "mental_modeling": 80.0,
         "multihop": 86.66666667,
-        "prediction": 89.4,
+        "prediction": 89.32857143,
         "affordance": 80.52380952,
         "navigation": 96.66666667,
         "trajectory": 76.66666667
@@ -1224,11 +1224,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Kimi K3::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 59.34761905,
+      "overall": 59.16450217,
       "capabilities": {
         "Perception": 82.5,
         "Understanding": 40.95238095,
-        "Reasoning": 40.23333333,
+        "Reasoning": 39.22619048,
         "Interaction": 67.33333333
       },
       "tasks": {
@@ -1239,7 +1239,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 34.28571429,
         "mental_modeling": 40.0,
         "multihop": 26.66666667,
-        "prediction": 53.8,
+        "prediction": 51.78571429,
         "affordance": 75.33333333,
         "navigation": 46.66666667,
         "trajectory": 80.0
@@ -1248,11 +1248,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Claude Fable 5::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 79.27142857,
+      "overall": 79.18571429,
       "capabilities": {
         "Perception": 88.05555556,
         "Understanding": 65.71428571,
-        "Reasoning": 81.1,
+        "Reasoning": 80.62857143,
         "Interaction": 82.82539683
       },
       "tasks": {
@@ -1263,7 +1263,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 74.28571429,
         "mental_modeling": 62.85714286,
         "multihop": 90.0,
-        "prediction": 72.2,
+        "prediction": 71.25714286,
         "affordance": 71.80952381,
         "navigation": 93.33333333,
         "trajectory": 83.33333333
@@ -1272,11 +1272,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Qwen3.8 Max::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 79.61904762,
+      "overall": 79.49350649,
       "capabilities": {
         "Perception": 90.55555556,
         "Understanding": 64.76190476,
-        "Reasoning": 78.5,
+        "Reasoning": 77.80952381,
         "Interaction": 84.28571429
       },
       "tasks": {
@@ -1287,7 +1287,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 82.85714286,
         "mental_modeling": 54.28571429,
         "multihop": 90.0,
-        "prediction": 67.0,
+        "prediction": 65.61904762,
         "affordance": 72.85714286,
         "navigation": 93.33333333,
         "trajectory": 86.66666667
@@ -1296,11 +1296,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "SpatioLM-Understanding::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 42.54458874,
+      "overall": 42.36363636,
       "capabilities": {
         "Perception": 38.88888889,
         "Understanding": 55.23809524,
-        "Reasoning": 49.23333333,
+        "Reasoning": 48.23809524,
         "Interaction": 29.04761905
       },
       "tasks": {
@@ -1311,7 +1311,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 25.71428571,
         "mental_modeling": 80.0,
         "multihop": 36.66666667,
-        "prediction": 61.8,
+        "prediction": 59.80952381,
         "affordance": 10.47619048,
         "navigation": 16.66666667,
         "trajectory": 60.0
@@ -1320,11 +1320,11 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "Claude Opus 4.8::text": {
       "status": "complete",
       "samples": 365,
-      "overall": 55.36388373,
+      "overall": 55.17773655,
       "capabilities": {
         "Perception": 81.11111111,
         "Understanding": 44.76190476,
-        "Reasoning": 39.85,
+        "Reasoning": 38.82619048,
         "Interaction": 50.56122449
       },
       "tasks": {
@@ -1335,7 +1335,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "perspective": 45.71428571,
         "mental_modeling": 37.14285714,
         "multihop": 30.0,
-        "prediction": 49.7,
+        "prediction": 47.65238095,
         "affordance": 51.68367347,
         "navigation": 33.33333333,
         "trajectory": 66.66666667
@@ -1343,6 +1343,8 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     }
   },
   "benchmark_version": "v1.1",
-  "benchmark_sha256": "8fd835687063d1579bc36a5c06b1eefed869bf4494d656f2aa8c10a69211f0a4",
-  "result_manifest_sha256": "fe26a6ef762e3e61f513fea5492d4312043d08dd39932b1fcf5b7cd9d0ed7a54"
+  "benchmark_sha256": "86ad80b96087fc5ba8b8fa2c822d95472e4dabc0811972fb86035b607a81c58b",
+  "result_manifest_sha256": "e0fc8e63d2d52123f116310956baabc74620dd16c401701dc4c304fc5ad2dd6f",
+  "benchmark_revision": "2dfb851d0f80baec198b6b43858b76d9a05ae11b",
+  "result_manifest_url": "results_update_manifest.json"
 };

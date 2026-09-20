@@ -1,0 +1,363 @@
+{
+  "schema_version": "spatialgen.homepage_score_update.v1",
+  "updated_at": "2026-09-20T13:16:27.952158+00:00",
+  "dataset_revision": "2dfb851d0f80baec198b6b43858b76d9a05ae11b",
+  "dataset_sha256": "86ad80b96087fc5ba8b8fa2c822d95472e4dabc0811972fb86035b607a81c58b",
+  "previous_result_manifest_sha256": "fe26a6ef762e3e61f513fea5492d4312043d08dd39932b1fcf5b7cd9d0ed7a54",
+  "scoring": "Prediction: exact endpoint = 1; adjacent endpoint = 0.8 - 1/H; otherwise = 0. H is the annotated source-scene candidate count. Archived validity decisions are preserved.",
+  "systems": 38,
+  "human_reference": "unchanged",
+  "new_inference_calls": 0,
+  "source_sha256": {
+    "main_models_rescored.csv": "1edb19f860f660d49e5f63f0d14a0c2d7f81ae2a7c6597708e88d5b2eba5694a",
+    "supplementary_models_rescored.csv": "fe934a2828f7f202070a2b93068db89eb411d29b0a09162bad5541f73398c4a2",
+    "spatialgen_api_vlm_quality_revision_20260720/fable-5/prediction/results.json": "94c59720fb2babf03ed7e2c0a2cfd940d7a44adb34e6eeb6d34509efd3edc7df",
+    "spatialgen_api_vlm_full470/qwen3.8-max/prediction/results.json": "cddb40cc026674109fefcc8be0734e3de296d8ec4e969c894be5356c5b3f8b62",
+    "spatialgen_local_vlm_full470/spatiolm-understanding-sensenovasi/prediction/results.json": "3f79116908a56eeac222a8933b411461cd1c8acdcbec2edbf19a5f763a8f7fb7",
+    "spatialgen_local_vlm_full470/bagel-7b-mot/prediction/results.json": "20bf60e5c81dba1940319102b1065ba916cec9e6621d364076e7a635de64749b"
+  },
+  "changes": [
+    {
+      "system": "GPT-5.4::text",
+      "old_prediction": 48.5,
+      "prediction": 46.00952380952381,
+      "old_overall": 61.044217687142854,
+      "overall": 60.86632653071428,
+      "reasoning": 55.81269841333333,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Cosmos3-Nano::text",
+      "old_prediction": 61.8,
+      "prediction": 59.97619047619048,
+      "old_overall": 60.166495864285714,
+      "overall": 60.03622375571429,
+      "reasoning": 54.59523809666666,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "RynnBrain-8B::text",
+      "old_prediction": 35.0,
+      "prediction": 33.78571428571429,
+      "old_overall": 51.14795918357144,
+      "overall": 51.06122449000001,
+      "reasoning": 43.80158730333333,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "RoboBrain2.5-8B-NV::text",
+      "old_prediction": 47.1,
+      "prediction": 45.385714285714286,
+      "old_overall": 47.43458049857143,
+      "overall": 47.31213151928571,
+      "reasoning": 47.192063493333336,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "SenseNova-Vision-7B-MoT::text",
+      "old_prediction": 49.7,
+      "prediction": 48.280952380952385,
+      "old_overall": 46.781292518571426,
+      "overall": 46.67993197428571,
+      "reasoning": 40.37936508000001,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "InternVL3.5-8B::text",
+      "old_prediction": 76.4,
+      "prediction": 74.38571428571429,
+      "old_overall": 46.24795918428572,
+      "overall": 46.10408163357143,
+      "reasoning": 61.779365083333325,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "SpaceR::text",
+      "old_prediction": 56.4,
+      "prediction": 54.48095238095239,
+      "old_overall": 45.83979591857143,
+      "overall": 45.70272108857143,
+      "reasoning": 52.60476190333333,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "SpaceOm::text",
+      "old_prediction": 32.3,
+      "prediction": 31.08571428571429,
+      "old_overall": 44.75612244714286,
+      "overall": 44.66938775357143,
+      "reasoning": 43.37777777666667,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "LLaVA-OV-1.5-8B::text",
+      "old_prediction": 32.3,
+      "prediction": 30.5952380952381,
+      "old_overall": 44.63707483,
+      "overall": 44.51530612285715,
+      "reasoning": 39.40476190666667,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "SpatialThinker-3B::text",
+      "old_prediction": 28.3,
+      "prediction": 26.690476190476197,
+      "old_overall": 44.61913837357143,
+      "overall": 44.50417238714285,
+      "reasoning": 39.214285716666666,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Qwen3-VL-8B::text",
+      "old_prediction": 39.1,
+      "prediction": 37.34761904761905,
+      "old_overall": 44.50204081642858,
+      "overall": 44.376870748571434,
+      "reasoning": 46.41746031666667,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "GEM-2B::text",
+      "old_prediction": 22.9,
+      "prediction": 21.433333333333337,
+      "old_overall": 43.65102041,
+      "overall": 43.546258505000004,
+      "reasoning": 39.20793650666667,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Cambrian-S-7B::text",
+      "old_prediction": 58.9,
+      "prediction": 57.68571428571428,
+      "old_overall": 42.548979592142864,
+      "overall": 42.462244898571434,
+      "reasoning": 46.68888889000001,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "GLM-4.6V-Flash::text",
+      "old_prediction": 20.2,
+      "prediction": 19.22380952380953,
+      "old_overall": 40.964163112142856,
+      "overall": 40.894435220714286,
+      "reasoning": 29.423809520000002,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "VLM-3R-7B::text",
+      "old_prediction": 13.5,
+      "prediction": 12.595238095238095,
+      "old_overall": 36.90445268928572,
+      "overall": 36.83982683928572,
+      "reasoning": 37.21428571333333,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Spatial-MLLM::text",
+      "old_prediction": 10.8,
+      "prediction": 10.061904761904763,
+      "old_overall": 32.82074829928571,
+      "overall": 32.76802721071428,
+      "reasoning": 32.71904762,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "SpatialRGPT-8B::text",
+      "old_prediction": 10.8,
+      "prediction": 10.061904761904763,
+      "old_overall": 31.715306122142863,
+      "overall": 31.662585033571435,
+      "reasoning": 29.226984126666668,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Janus-Pro-7B::text",
+      "old_prediction": 28.2,
+      "prediction": 27.22380952380952,
+      "old_overall": 31.580612244285714,
+      "overall": 31.510884352857143,
+      "reasoning": 35.42380952,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Janus-1.3B::text",
+      "old_prediction": 28.2,
+      "prediction": 27.128571428571423,
+      "old_overall": 28.587414967142852,
+      "overall": 28.510884354999998,
+      "reasoning": 31.26507936666667,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "SpatialBot-3B::text",
+      "old_prediction": 10.8,
+      "prediction": 10.061904761904763,
+      "old_overall": 27.990816327142852,
+      "overall": 27.938095238571425,
+      "reasoning": 31.607936506666665,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "GPT-5 Image 2::visual",
+      "old_prediction": 54.07142857,
+      "prediction": 54.071428571428584,
+      "old_overall": 54.48628802214286,
+      "overall": 54.48628802214286,
+      "reasoning": 41.833333333333336,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Nano Banana 2::visual",
+      "old_prediction": 20.95238095,
+      "prediction": 20.952380952380953,
+      "old_overall": 48.63116823785714,
+      "overall": 48.63116823785714,
+      "reasoning": 24.920634919999998,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "GPT-5 Image Mini::visual",
+      "old_prediction": 30.65714286,
+      "prediction": 30.990476190476198,
+      "old_overall": 39.996372773571444,
+      "overall": 40.02018229714287,
+      "reasoning": 26.996825396666665,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Seedream 4.5::visual",
+      "old_prediction": 36.08095238,
+      "prediction": 36.08095238095238,
+      "old_overall": 38.12676165785714,
+      "overall": 38.12676165785714,
+      "reasoning": 28.693650793333333,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "JoyAI-Image::visual",
+      "old_prediction": 14.2,
+      "prediction": 14.2,
+      "old_overall": 35.281863637142855,
+      "overall": 35.281863637142855,
+      "reasoning": 19.495238096666668,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "FLUX.2 [klein] 9B::visual",
+      "old_prediction": 16.5,
+      "prediction": 16.5,
+      "old_overall": 33.579155435,
+      "overall": 33.579155435,
+      "reasoning": 22.801587299999998,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "SenseNova-Vision-7B-MoT::visual",
+      "old_prediction": 4.0,
+      "prediction": 4.0,
+      "old_overall": 32.69620002571428,
+      "overall": 32.69620002571428,
+      "reasoning": 12.444444443333333,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "FLUX.2 [klein] 4B::visual",
+      "old_prediction": 18.53333333,
+      "prediction": 18.7,
+      "old_overall": 28.841194132142853,
+      "overall": 28.853098894285704,
+      "reasoning": 14.169841270000001,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "OmniGen-v1::visual",
+      "old_prediction": 17.16190476,
+      "prediction": 17.161904761904765,
+      "old_overall": 26.72172674500001,
+      "overall": 26.72172674500001,
+      "reasoning": 26.355555553333332,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "Qwen-Image-Edit-2511::visual",
+      "old_prediction": 28.58571429,
+      "prediction": 28.395238095238103,
+      "old_overall": 26.44471443214286,
+      "overall": 26.431108990000002,
+      "reasoning": 29.623809523333335,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "BAGEL-7B-MoT::visual",
+      "old_prediction": 0.0,
+      "prediction": 0.0,
+      "old_overall": 25.436011107142857,
+      "overall": 25.436011107142857,
+      "reasoning": 24.444444443333335,
+      "source": "main_models_rescored.csv"
+    },
+    {
+      "system": "GPT-5.6 Sol::text",
+      "old_prediction": 89.4,
+      "prediction": 89.32857142857142,
+      "old_overall": 80.98095238214286,
+      "overall": 80.97585034142857,
+      "reasoning": 85.33174603333333,
+      "source": "supplementary_models_rescored.csv"
+    },
+    {
+      "system": "Kimi K3::text",
+      "old_prediction": 53.8,
+      "prediction": 51.78571428571429,
+      "old_overall": 63.36496598642857,
+      "overall": 63.22108843571429,
+      "reasoning": 52.81746032,
+      "source": "supplementary_models_rescored.csv"
+    },
+    {
+      "system": "Claude Opus 4.8::text",
+      "old_prediction": 49.7,
+      "prediction": 47.65238095238095,
+      "old_overall": 57.78590864857143,
+      "overall": 57.639650145,
+      "reasoning": 48.74126984,
+      "source": "supplementary_models_rescored.csv"
+    },
+    {
+      "system": "Claude Fable 5::text",
+      "old_prediction": 72.2,
+      "prediction": 71.25714285714287,
+      "old_overall": 81.26428571428572,
+      "overall": 81.19693877571429,
+      "reasoning": 82.32380952333334,
+      "source": "spatialgen_api_vlm_quality_revision_20260720/fable-5/prediction/results.json"
+    },
+    {
+      "system": "Qwen3.8 Max::text",
+      "old_prediction": 67.0,
+      "prediction": 65.61904761904762,
+      "old_overall": 81.74149659928571,
+      "overall": 81.64285714357142,
+      "reasoning": 77.58730158666667,
+      "source": "spatialgen_api_vlm_full470/qwen3.8-max/prediction/results.json"
+    },
+    {
+      "system": "SpatioLM-Understanding::text",
+      "old_prediction": 61.8,
+      "prediction": 59.80952380952381,
+      "old_overall": 45.26462585071429,
+      "overall": 45.12244898,
+      "reasoning": 54.063492063333335,
+      "source": "spatialgen_local_vlm_full470/spatiolm-understanding-sensenovasi/prediction/results.json"
+    },
+    {
+      "system": "BAGEL-7B-MoT::text",
+      "old_prediction": 42.9,
+      "prediction": 41.95714285714286,
+      "old_overall": 54.02517006928572,
+      "overall": 53.957823130714296,
+      "reasoning": 46.68412698666666,
+      "source": "spatialgen_local_vlm_full470/bagel-7b-mot/prediction/results.json"
+    }
+  ]
+}
