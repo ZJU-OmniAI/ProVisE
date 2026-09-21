@@ -1,6 +1,6 @@
 {
   "schema_version": "spatialgen.homepage_score_update.v1",
-  "updated_at": "2026-09-20T13:16:27.952158+00:00",
+  "updated_at": "2026-09-21T05:07:50.289093+00:00",
   "dataset_revision": "2dfb851d0f80baec198b6b43858b76d9a05ae11b",
   "dataset_sha256": "86ad80b96087fc5ba8b8fa2c822d95472e4dabc0811972fb86035b607a81c58b",
   "previous_result_manifest_sha256": "fe26a6ef762e3e61f513fea5492d4312043d08dd39932b1fcf5b7cd9d0ed7a54",
@@ -359,5 +359,95 @@
       "reasoning": 46.68412698666666,
       "source": "spatialgen_local_vlm_full470/bagel-7b-mot/prediction/results.json"
     }
-  ]
+  ],
+  "trajectory_replay": {
+    "contract": "trajectory_release_start_anchored_20_dfd04_20260921",
+    "updated_at": "2026-09-21T05:07:50.289093+00:00",
+    "canonical_main_sha256": "573b81a60644ad435911fd636147e3f49df36ae848f15f425c9b397c693afac2",
+    "canonical_manifest_sha256": "388e797e05dabd93d7d946840da57f8ccb52a4c0d30bf8ca3adba761b8fb209f",
+    "experiment_manifest_sha256": "e2a3facf77838ff3a7d6150bde837e7e1830a50bb56e8df3c674e569c4a6b793",
+    "previous_payload_sha256": "5145983ad504f141c2e2e05fb2ed526b0a671315acdeb542d5980a0e4a1e9a5e",
+    "visual_records": 330,
+    "text_and_human": "unchanged",
+    "new_model_calls": 0,
+    "changes": [
+      {
+        "system": "GPT-5 Image 2::visual",
+        "old_trajectory": 70.0,
+        "trajectory": 83.33333333333334,
+        "interaction": 61.24553458373201,
+        "overall": 55.438668975425564
+      },
+      {
+        "system": "Nano Banana 2::visual",
+        "old_trajectory": 63.33333333,
+        "trajectory": 73.33333333333333,
+        "interaction": 51.94545178131091,
+        "overall": 49.345453953138055
+      },
+      {
+        "system": "GPT-5 Image Mini::visual",
+        "old_trajectory": 36.66666667,
+        "trajectory": 50.0,
+        "interaction": 33.57354912760548,
+        "overall": 40.972563248432465
+      },
+      {
+        "system": "Seedream 4.5::visual",
+        "old_trajectory": 53.33333333,
+        "trajectory": 63.33333333333333,
+        "interaction": 36.374094089140286,
+        "overall": 38.841047372842986
+      },
+      {
+        "system": "JoyAI-Image::visual",
+        "old_trajectory": 60.0,
+        "trajectory": 70.0,
+        "interaction": 45.947109673390834,
+        "overall": 35.99614935178103
+      },
+      {
+        "system": "FLUX.2 [klein] 9B::visual",
+        "old_trajectory": 40.0,
+        "trajectory": 63.33333333333333,
+        "interaction": 42.86939203174983,
+        "overall": 35.24582210204163
+      },
+      {
+        "system": "SenseNova-Vision-7B-MoT::visual",
+        "old_trajectory": 36.66666667,
+        "trajectory": 30.0,
+        "interaction": 33.70925091668755,
+        "overall": 32.220009550174545
+      },
+      {
+        "system": "FLUX.2 [klein] 4B::visual",
+        "old_trajectory": 36.66666667,
+        "trajectory": 43.333333333333336,
+        "interaction": 30.597001184818403,
+        "overall": 29.329289369535914
+      },
+      {
+        "system": "OmniGen-v1::visual",
+        "old_trajectory": 30.0,
+        "trajectory": 40.0,
+        "interaction": 28.544248622763874,
+        "overall": 27.436012459980013
+      },
+      {
+        "system": "BAGEL-7B-MoT::visual",
+        "old_trajectory": 40.0,
+        "trajectory": 63.33333333333333,
+        "interaction": 34.09821056075713,
+        "overall": 27.102677773223466
+      },
+      {
+        "system": "Qwen-Image-Edit-2511::visual",
+        "old_trajectory": 23.33333333,
+        "trajectory": 30.0,
+        "interaction": 22.689619730075734,
+        "overall": 26.90729946596861
+      }
+    ]
+  }
 }

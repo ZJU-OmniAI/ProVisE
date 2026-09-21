@@ -1,7 +1,7 @@
 window.SPATIALGEN_EXPANSION_RESULTS = {
   "schema_version": "spatialgen.homepage_expansion.v2",
   "manifest_sha256": "dd9733a1173d790bdd5888a9b944d3a9e3edaef5356426a6da237b09ab176dd6",
-  "updated_at": "2026-09-20T13:16:27.952158+00:00",
+  "updated_at": "2026-09-21T05:07:50.289093+00:00",
   "systems": {
     "Nano Banana 2::visual": {
       "status": "complete",
@@ -912,12 +912,12 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
     "GPT-5 Image 2::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 52.20332761,
+      "overall": 53.41544882484848,
       "capabilities": {
         "Perception": 66.11111111,
         "Understanding": 37.14285714,
         "Reasoning": 47.03571428,
-        "Interaction": 56.80109014
+        "Interaction": 61.24553458444445
       },
       "tasks": {
         "counting": 82.5,
@@ -930,18 +930,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 54.07142857,
         "affordance": 60.40327042,
         "navigation": 40.0,
-        "trajectory": 70.0
+        "trajectory": 83.33333333333334
       }
     },
     "Nano Banana 2::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 47.08901932,
+      "overall": 47.99811022575758,
       "capabilities": {
         "Perception": 77.22222222,
         "Understanding": 34.28571428,
         "Reasoning": 18.80952381,
-        "Interaction": 48.61211845
+        "Interaction": 51.94545178111111
       },
       "tasks": {
         "counting": 82.5,
@@ -954,18 +954,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 20.95238095,
         "affordance": 42.50302201,
         "navigation": 40.0,
-        "trajectory": 63.33333333
+        "trajectory": 73.33333333333333
       }
     },
     "GPT-5 Image Mini::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 39.24646578,
+      "overall": 40.45858699181818,
       "capabilities": {
         "Perception": 67.77777778,
         "Understanding": 33.33333333,
         "Reasoning": 20.49523809,
-        "Interaction": 29.12910469
+        "Interaction": 33.573549129999996
       },
       "tasks": {
         "counting": 52.5,
@@ -978,18 +978,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 30.99047619,
         "affordance": 14.05398072,
         "navigation": 36.66666667,
-        "trajectory": 36.66666667
+        "trajectory": 50.0
       }
     },
     "Seedream 4.5::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 36.05743692,
+      "overall": 36.966527824848484,
       "capabilities": {
         "Perception": 53.33333333,
         "Understanding": 30.47619047,
         "Reasoning": 23.04047619,
-        "Interaction": 33.04076076
+        "Interaction": 36.37409409111111
       },
       "tasks": {
         "counting": 30.0,
@@ -1002,18 +1002,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 36.08095238,
         "affordance": 9.12228227,
         "navigation": 36.66666667,
-        "trajectory": 53.33333333
+        "trajectory": 63.33333333333333
       }
     },
     "JoyAI-Image::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 31.65743684,
+      "overall": 32.56652774545454,
       "capabilities": {
         "Perception": 37.77777778,
         "Understanding": 27.61904762,
         "Reasoning": 12.1,
-        "Interaction": 42.61377634
+        "Interaction": 45.94710967333334
       },
       "tasks": {
         "counting": 55.0,
@@ -1026,18 +1026,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 14.2,
         "affordance": 34.50799569,
         "navigation": 33.33333333,
-        "trajectory": 60.0
+        "trajectory": 70.0
       }
     },
     "FLUX.2 [klein] 9B::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 33.12671731,
+      "overall": 35.247929428484845,
       "capabilities": {
         "Perception": 41.66666667,
         "Understanding": 31.42857143,
         "Reasoning": 19.91666667,
-        "Interaction": 35.09161426
+        "Interaction": 42.869392034444445
       },
       "tasks": {
         "counting": 25.0,
@@ -1050,18 +1050,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 16.5,
         "affordance": 28.6081761,
         "navigation": 36.66666667,
-        "trajectory": 40.0
+        "trajectory": 63.33333333333333
       }
     },
     "SenseNova-Vision-7B-MoT::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 32.5224364,
+      "overall": 31.91637579,
       "capabilities": {
         "Perception": 39.44444444,
         "Understanding": 31.42857143,
         "Reasoning": 18.66666667,
-        "Interaction": 35.93147314
+        "Interaction": 33.70925091666667
       },
       "tasks": {
         "counting": 22.5,
@@ -1074,18 +1074,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 4.0,
         "affordance": 51.12775275,
         "navigation": 20.0,
-        "trajectory": 36.66666667
+        "trajectory": 30.0
       }
     },
     "FLUX.2 [klein] 4B::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 26.851996,
+      "overall": 27.45805660121212,
       "capabilities": {
         "Perception": 33.05555556,
         "Understanding": 28.57142857,
         "Reasoning": 12.68333334,
-        "Interaction": 28.37477896
+        "Interaction": 30.597001184444444
       },
       "tasks": {
         "counting": 20.0,
@@ -1098,18 +1098,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 18.7,
         "affordance": 11.79100355,
         "navigation": 36.66666667,
-        "trajectory": 36.66666667
+        "trajectory": 43.333333333333336
       }
     },
     "OmniGen-v1::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 30.37310677,
+      "overall": 31.282197675454547,
       "capabilities": {
         "Perception": 36.94444444,
         "Understanding": 32.38095238,
         "Reasoning": 25.24761905,
-        "Interaction": 25.21091529
+        "Interaction": 28.544248623333335
       },
       "tasks": {
         "counting": 7.5,
@@ -1122,18 +1122,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 17.16190476,
         "affordance": 5.63274587,
         "navigation": 40.0,
-        "trajectory": 30.0
+        "trajectory": 40.0
       }
     },
     "Qwen-Image-Edit-2511::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 23.76946339,
+      "overall": 24.375523996363636,
       "capabilities": {
         "Perception": 22.77777778,
         "Understanding": 26.66666667,
         "Reasoning": 25.86428572,
-        "Interaction": 20.46739751
+        "Interaction": 22.68961973
       },
       "tasks": {
         "counting": 10.0,
@@ -1146,18 +1146,18 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 28.3952381,
         "affordance": 4.73552586,
         "navigation": 33.33333333,
-        "trajectory": 23.33333333
+        "trajectory": 30.0
       }
     },
     "BAGEL-7B-MoT::visual": {
       "status": "complete",
       "samples": 365,
-      "overall": 24.58089725,
+      "overall": 26.702109373939393,
       "capabilities": {
         "Perception": 22.22222222,
         "Understanding": 30.47619048,
         "Reasoning": 16.66666667,
-        "Interaction": 26.32043278
+        "Interaction": 34.09821056111111
       },
       "tasks": {
         "counting": 10.0,
@@ -1170,7 +1170,7 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
         "prediction": 0.0,
         "affordance": 5.62796502,
         "navigation": 33.33333333,
-        "trajectory": 40.0
+        "trajectory": 63.33333333333333
       }
     },
     "Human::human": {
@@ -1344,7 +1344,8 @@ window.SPATIALGEN_EXPANSION_RESULTS = {
   },
   "benchmark_version": "v1.1",
   "benchmark_sha256": "86ad80b96087fc5ba8b8fa2c822d95472e4dabc0811972fb86035b607a81c58b",
-  "result_manifest_sha256": "e0fc8e63d2d52123f116310956baabc74620dd16c401701dc4c304fc5ad2dd6f",
+  "result_manifest_sha256": "64bed58017fd19349c0de27e9b74489ca1e834804b5bca62a8a7ba325600ed36",
   "benchmark_revision": "2dfb851d0f80baec198b6b43858b76d9a05ae11b",
-  "result_manifest_url": "results_update_manifest.json"
+  "result_manifest_url": "results_update_manifest.json",
+  "trajectory_parser_version": "trajectory_release_start_anchored_20_dfd04_20260921"
 };
