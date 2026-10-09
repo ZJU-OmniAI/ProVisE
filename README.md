@@ -18,6 +18,16 @@
   <video src="https://github.com/user-attachments/assets/3d63f668-e9fe-48ce-aaca-3a51b1940c41" controls width="80%"></video>
 </div>
 
+<!-- hf-downloads:start -->
+## Hugging Face downloads
+
+All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+
+| Resource | Type | All-time downloads |
+| :--- | :--- | ---: |
+| [SpatialGen-Bench](https://huggingface.co/datasets/wx91726/SpatialGen-Bench) | Dataset | [1,684](https://huggingface.co/api/datasets/wx91726/SpatialGen-Bench?expand%5B%5D=downloadsAllTime) |
+<!-- hf-downloads:end -->
+
 ## 📖 Overview
 
 Existing spatial benchmarks usually require coordinates, option labels, or textual descriptions.
