@@ -20,6 +20,10 @@
 
 <!-- hf-downloads:start -->
 
+## Media Coverage · 媒体报道
+
+- **机器之心（AI TNT 转载） · 2026.08** — [让生成式模型「画」出空间智能，而非强迫LLM输出「坐标」! 浙大提出Agentic空间认知评估框架](https://m.aitntnews.com/newDetail.html?newId=28080)
+
 ## Hugging Face downloads
 
 Automatically updated all-time counts from Hugging Face. Badges are cached and may lag behind the source. [Refresh details](https://github.com/ZJU-OmniAI/.github/tree/main/metrics).
