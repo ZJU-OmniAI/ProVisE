@@ -22,7 +22,7 @@
 
 ## Media Coverage · 媒体报道
 
-- **机器之心（AI TNT 转载） · 2026.08** — [让生成式模型「画」出空间智能，而非强迫LLM输出「坐标」! 浙大提出Agentic空间认知评估框架](https://m.aitntnews.com/newDetail.html?newId=28080)
+- **机器之心 · 2026.08** — [让生成式模型「画」出空间智能，而非强迫LLM输出「坐标」! 浙大提出Agentic空间认知评估框架](https://www.jiqizhixin.com/articles/2026-08-08-4)
 
 ## Hugging Face downloads
 
