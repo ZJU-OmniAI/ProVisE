@@ -750,7 +750,18 @@ const baseModels = [
   ...extraVisualModels,
   ...specialistModels,
 ];
-const integratedModels = baseModels.map(integrateExpansionScores);
+const supplementaryModels = window.SPATIALGEN_SUPPLEMENTARY_RESULTS?.models || [];
+const replacedSystemKeys = new Set(supplementaryModels.map((model) => model.replaces).filter(Boolean));
+const integratedModels = [
+  ...baseModels.map(integrateExpansionScores).filter((model) => !replacedSystemKeys.has(expansionSystemKey(model))),
+  ...supplementaryModels.map((model) => ({
+    ...model,
+    overall: meanScore(taskKeys.map((key) => model.tasks[key])),
+    capabilities: Object.fromEntries(capabilityKeys.map((capability) => [
+      capability, meanScore(capabilityTaskKeys[capability].map((key) => model.tasks[key])),
+    ])),
+  })),
+];
 
 const filters = {
   all: integratedModels,
@@ -1017,9 +1028,14 @@ function modelRowsForSummary(data) {
   return models.length ? models : data;
 }
 
+function displayModelName(model) {
+  return model.model.replace(/(?:-(?:MoT|NV))+$/g, "");
+}
+
 function modelLabel(model) {
-  if (!model.provisional) return model.model;
-  return `${model.model}<span class="model-testing-label" title="331 of 470 samples completed"> · Testing</span>`;
+  const name = displayModelName(model);
+  if (!model.provisional) return name;
+  return `${name}<span class="model-testing-label" title="331 of 470 samples completed"> · Testing</span>`;
 }
 
 function rankDisplay(rank) {
@@ -1106,7 +1122,7 @@ function renderLeaderboardSummary(data) {
     <article class="summary-overall">
       <span>Top model · overall</span>
       <strong data-count="${bestOverall.overall}" data-decimals="2">${fmt(bestOverall.overall)}</strong>
-      <p>${bestOverall.model} · ${bestOverall.protocol}</p>
+      <p>${displayModelName(bestOverall)} · ${bestOverall.protocol}</p>
     </article>
     <article class="summary-capabilities">
       <span>Best by capability</span>
@@ -1115,7 +1131,7 @@ function renderLeaderboardSummary(data) {
           <div>
             <em>${key}</em>
             <strong>${fmt(model.capabilities[key])}</strong>
-            <p title="${model.model}">${model.model}</p>
+            <p title="${displayModelName(model)}">${displayModelName(model)}</p>
           </div>
         `).join("")}
       </div>
